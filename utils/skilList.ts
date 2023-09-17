@@ -18,4 +18,5 @@ export const skillList: Array<skillListType> = [
     {img:react}, 
     {img:tailWind}, 
     {img:typescript}, 
-    {img:git}];
+    {img:git}
+];

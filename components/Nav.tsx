@@ -22,10 +22,10 @@ const Nav: React.FC = () => {
         className={`md:flex md:items-center ${menuOpen ? "block" : "hidden"}`}
       >
         <ul className="md:flex md:space-x-4 ">
-          <li className="text-blue-600">Home</li>
-          <li className="text-blue-600">About</li>
-          <li className="text-blue-600">Services</li>
-          <li className="text-blue-600">Contact</li>
+          <li className="text-blue-600 font-bold">Home</li>
+          <li className="text-blue-600 font-bold">About</li>
+          <li className="text-blue-600 font-bold">Services</li>
+          <li className="text-blue-600 font-bold">Contact</li>
         </ul>
       </div>
     </nav>
