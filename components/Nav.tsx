@@ -9,7 +9,7 @@ const Nav: React.FC = () => {
   };
 
   return (
-    <nav className="shadow-bottom p-4 md:flex md:justify-between">
+    <nav className="shadow-bottom p-4 md:flex md:justify-between w-full fixed bg-white z-10">
       <div className="flex items-center justify-between">
         <div className=" text-xl font-bold text-blue-600">WENZEL BARBOZA</div>
         <div className="md:hidden">
