@@ -1,9 +1,13 @@
+import IntroContainer from "@/components/IntroContainer";
 import ProjectConatiner from "@/components/ProjectContainer";
 import SkillContainer from "@/components/SkillContainer";
 
 export default function Home() {
   return (
     <main className=" w-10/12 mx-auto">
+      <section>
+        <IntroContainer />
+      </section>
       <section className="flex flex-col items-center ">
         <h3 className=" text-2xl font-bold">My Skills</h3>
         <SkillContainer />
@@ -12,6 +16,7 @@ export default function Home() {
         <h3 className=" text-2xl font-bold">My Projects</h3>
         <ProjectConatiner />
       </section>
+      <section></section>
     </main>
   );
 }
