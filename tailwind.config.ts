@@ -8,6 +8,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["var(--font-geist-sans)"],
+        latoSans: ["var(--font-lato-sans)"],
+        mono: ["var(--font-geist-mono)"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
