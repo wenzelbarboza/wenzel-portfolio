@@ -7,12 +7,11 @@ import Socials from "@/components/Socials";
 export default function Home() {
   return (
     <>
-      <div className="p-9 sm:p-0 sm:max-w-xl m-auto flex flex-col ">
-        <Nav />
-        <Hero />
-        <Socials />
-        <Skills />
-      </div>
+      <Nav />
+      <Hero />
+      <Socials />
+      <Skills />
+      <Projects />
     </>
   );
 }
