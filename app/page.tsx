@@ -1,7 +1,11 @@
+import Nav from "@/components/Nav";
+
 export default function Home() {
   return (
     <>
-      <h1 className="font-sans">Hello welcome to my page</h1>
+      <div className="p-9 sm:p-0 sm:max-w-xl m-auto flex flex-col ">
+        <Nav />
+      </div>
     </>
   );
 }
