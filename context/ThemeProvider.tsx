@@ -13,7 +13,7 @@ export const ThemeProvider = ({ children }) => {
   const [isDark, setIsDark] = useState(true); // Default to dark mode
 
   const toggleTheme = () => {
-    setIsDark(!isDark);
+    setIsDark((prev) => !prev);
   };
 
   useEffect(() => {
