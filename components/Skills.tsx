@@ -42,7 +42,7 @@ export const Skills = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {skillCategories.map((category, index) => (
+          {skillCategories.map((category) => (
             <div
               key={category.title}
               className="bg-white/60 dark:bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-gray-200/50 dark:border-gray-700/40 transition-all duration-300 hover:bg-white/80 dark:hover:bg-gray-800/70 hover:border-gray-300/60 dark:hover:border-gray-600/50 hover:shadow-xl"

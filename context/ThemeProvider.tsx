@@ -4,7 +4,10 @@ type ThemeContextType = {
   isDark: boolean;
   toggleTheme: () => void;
 };
-const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
+const ThemeContext = createContext<ThemeContextType>({
+  isDark: true,
+  toggleTheme: () => {},
+});
 
 export const ThemeProvider = ({ children }) => {
   const [isDark, setIsDark] = useState(true); // Default to dark mode

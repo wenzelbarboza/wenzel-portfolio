@@ -1,13 +1,11 @@
 "use client";
-import React, { useState, useEffect, createContext, useContext } from "react";
-import { Github, Linkedin, ExternalLink, Sun, Moon } from "lucide-react";
 import { Nav } from "@/components/Nav";
-import { ThemeProvider } from "@/context/ThemeProvider";
 import { Hero } from "@/components/Hero";
 import { Socials } from "@/components/Socials";
 import { Skills } from "@/components/Skills";
 import { Projects } from "@/components/Projects";
 import { Footer } from "@/components/Footer";
+import { ThemeProvider } from "@/context/ThemeProvider";
 
 // Main App Component
 export default function Portfolio() {

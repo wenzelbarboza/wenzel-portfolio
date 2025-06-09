@@ -5,10 +5,10 @@ export const Footer = () => {
     <footer className="bg-gray-100/50 dark:bg-gray-800/30 backdrop-blur-sm px-6 py-12 transition-colors duration-300 border-t border-gray-200/50 dark:border-gray-700/30">
       <div className="max-w-4xl mx-auto text-center">
         <h3 className="text-2xl font-light mb-4 text-gray-800 dark:text-gray-100">
-          Let's work together
+          Let&apos;s work together
         </h3>
         <p className="text-gray-600 dark:text-gray-300 mb-8 transition-colors duration-300">
-          I'm always open to discussing new opportunities and interesting
+          I&apos;m always open to discussing new opportunities and interesting
           projects.
         </p>
         <div className="flex justify-center space-x-6 mb-8">
