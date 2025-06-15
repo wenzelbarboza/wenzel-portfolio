@@ -1,4 +1,3 @@
-"use client";
 import { Nav } from "@/components/Nav";
 import { Hero } from "@/components/Hero";
 import { Socials } from "@/components/Socials";
@@ -13,7 +12,7 @@ export default function Portfolio() {
     <ThemeProvider>
       <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
         {/* CSS for Grid Pattern */}
-        <style jsx global>{`
+        {/* <style jsx global>{`
           .bg-grid-pattern {
             background-image: linear-gradient(
                 rgba(0, 0, 0, 0.05) 1px,
@@ -34,7 +33,7 @@ export default function Portfolio() {
               );
             background-size: 20px 20px;
           }
-        `}</style>
+        `}</style> */}
         <Nav />
         <Hero />
         <Socials />
