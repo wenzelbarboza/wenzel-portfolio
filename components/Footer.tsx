@@ -13,7 +13,7 @@ export const Footer = () => {
         </p>
         <div className="flex justify-center space-x-6 mb-8">
           <a
-            href="mailto:wenzel@example.com"
+            href="mailto:wenzel.audrin@gmail.com"
             className="bg-white/60 dark:bg-gray-700/60 text-gray-800 dark:text-gray-100 px-6 py-3 rounded-full hover:bg-white/80 dark:hover:bg-gray-600/70 transition-colors duration-200 backdrop-blur-sm border border-gray-200/50 dark:border-gray-600/40"
           >
             Get in touch
@@ -21,13 +21,15 @@ export const Footer = () => {
         </div>
         <div className="flex justify-center space-x-6">
           <a
-            href="https://github.com"
+            href="https://github.com/wenzelbarboza"
+            target="_blank"
             className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-200"
           >
             <Github className="w-5 h-5" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/wenzel-barboza-89288a219/"
+            target="_blank"
             className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-200"
           >
             <Linkedin className="w-5 h-5" />

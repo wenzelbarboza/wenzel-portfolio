@@ -6,7 +6,7 @@ export const Socials = () => {
       <div className="max-w-4xl mx-auto">
         <div className="flex space-x-6">
           <a
-            href="https://github.com"
+            href="https://github.com/wenzelbarboza"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-200 group"
@@ -15,7 +15,7 @@ export const Socials = () => {
             <span className="hidden sm:inline">GitHub</span>
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/wenzel-barboza-89288a219/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-200 group"
