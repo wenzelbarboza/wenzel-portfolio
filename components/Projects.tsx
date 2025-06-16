@@ -3,21 +3,13 @@ import { ProjectCard } from "./ProjectCard";
 export const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Mock App",
       description:
-        "Full-stack e-commerce solution with modern design and seamless user experience",
-      src: "https://res.cloudinary.com/del6v0im5/image/upload/v1749975074/Ecom_bcdtf8.png",
-      technologies: [
-        "React",
-        "TypeScripe",
-        "Node.js",
-        "Express",
-        "PostgreSQL",
-        "Stripe",
-        "Prisma ORM",
-      ],
-      github: "https://github.com/wenzelbarboza/Ecommerce",
-      demo: "https://estore-pied.vercel.app/",
+        "Tool for generating customizable mockups, including iPhone frames, image backgrounds, Google search previews, QR codes, and more.",
+      technologies: ["Next.js", "drizzle ORM"],
+      src: "https://res.cloudinary.com/del6v0im5/image/upload/v1749975074/MockPro_hhfsmc.png",
+      github: "https://github.com/wenzelbarboza/MockPro",
+      demo: "https://mock-pro.vercel.app/",
     },
     {
       title: "Job Search App",
@@ -36,15 +28,6 @@ export const Projects = () => {
       demo: "https://job-site-blond.vercel.app/",
     },
     {
-      title: "Mock App",
-      description:
-        "Tool for generating customizable mockups, including iPhone frames, image backgrounds, Google search previews, QR codes, and more.",
-      technologies: ["Next.js", "drizzle ORM"],
-      src: "https://res.cloudinary.com/del6v0im5/image/upload/v1749975074/MockPro_hhfsmc.png",
-      github: "https://github.com/wenzelbarboza/MockPro",
-      demo: "https://mock-pro.vercel.app/",
-    },
-    {
       title: "collaborative code editor",
       description:
         "Real-time collaborative code editor with synchronous editing powered by WebSockets, enabling multiple users to code together seamlessly.",
@@ -53,6 +36,23 @@ export const Projects = () => {
       github: "https://github.com/wenzelbarboza/CodeBridge",
       // TODO: make demo optional
       demo: "https://demo.com",
+    },
+    {
+      title: "E-Commerce Platform",
+      description:
+        "Full-stack e-commerce solution with modern design and seamless user experience",
+      src: "https://res.cloudinary.com/del6v0im5/image/upload/v1749975074/Ecom_bcdtf8.png",
+      technologies: [
+        "React",
+        "TypeScripe",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Stripe",
+        "Prisma ORM",
+      ],
+      github: "https://github.com/wenzelbarboza/Ecommerce",
+      demo: "https://estore-pied.vercel.app/",
     },
   ];
 

@@ -7,12 +7,6 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-// const lato = Lato({
-//   variable: "--font-lato-sans",
-//   subsets: ["latin"],
-//   weight: "400",
-// });
-
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
