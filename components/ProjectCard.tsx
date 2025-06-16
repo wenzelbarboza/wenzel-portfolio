@@ -47,15 +47,17 @@ export const ProjectCard = ({ project }) => {
             <Github className="w-4 h-4" />
             <span className="text-sm">Code</span>
           </a>
-          <a
-            href={project.demo}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center space-x-1 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-200"
-          >
-            <ExternalLink className="w-4 h-4" />
-            <span className="text-sm">Demo</span>
-          </a>
+          {project.demo && (
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-1 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-200"
+            >
+              <ExternalLink className="w-4 h-4" />
+              <span className="text-sm">Demo</span>
+            </a>
+          )}
         </div>
       </div>
     </div>

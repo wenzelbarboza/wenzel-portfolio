@@ -34,8 +34,6 @@ export const Projects = () => {
       src: "https://res.cloudinary.com/del6v0im5/image/upload/v1749975073/CodeBridge_ynor2i.png",
       technologies: ["React", "TypeScripe", "Node.js", "Express", "WebSockets"],
       github: "https://github.com/wenzelbarboza/CodeBridge",
-      // TODO: make demo optional
-      demo: "https://demo.com",
     },
     {
       title: "E-Commerce Platform",
