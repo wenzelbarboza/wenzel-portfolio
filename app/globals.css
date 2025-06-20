@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* *{
+  background-color: #0a0a0a;
+} */
+
 @media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
@@ -79,22 +84,15 @@ body {
 }
 
 .bg-grid-pattern {
-background-image: linear-gradient(
-    rgba(0, 0, 0, 0.05) 1px,
-    transparent 1px
-  ),
-  linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
-background-size: 20px 20px;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
 }
+
 .bg-grid-pattern-dark {
-background-image: linear-gradient(
-    rgba(255, 255, 255, 0.05) 1px,
-    transparent 1px
-  ),
-  linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0.05) 1px,
-    transparent 1px
-  );
-background-size: 20px 20px;
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 20px 20px;
 }

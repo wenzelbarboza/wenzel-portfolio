@@ -3,7 +3,7 @@ export const Hero = () => {
     <section id="about" className="pt-32 pb-20 px-6 relative">
       {/* Subtle Grid Background */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-grid-pattern dark:bg-grid-pattern-dark opacity-20"></div>
+        <div className="absolute inset-0 bg-grid-pattern dark:bg-grid-pattern-dark opacity-30 dark:opacity-100"></div>
       </div>
       <div className="max-w-4xl mx-auto relative z-10">
         <div className="mb-8">
