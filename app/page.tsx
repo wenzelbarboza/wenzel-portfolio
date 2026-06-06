@@ -1,23 +1,19 @@
-import { Nav } from "@/components/Nav";
-import { Hero } from "@/components/Hero";
-import { Socials } from "@/components/Socials";
-import { Skills } from "@/components/Skills";
-import { Projects } from "@/components/Projects";
-import { Footer } from "@/components/Footer";
-import { ThemeProvider } from "@/context/ThemeProvider";
+import { Header } from "@/components/header"
+import { About } from "@/components/about"
+import { Skills } from "@/components/skills"
+import { Projects } from "@/components/projects"
+import { Contact } from "@/components/contact"
 
-// Main App Component
-export default function Portfolio() {
+export default function Home() {
   return (
-    <ThemeProvider>
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
-        <Nav />
-        <Hero />
-        <Socials />
+    <main className="min-h-screen">
+      <div className="mx-auto max-w-3xl px-6 py-16 md:py-24">
+        <Header />
+        <About />
         <Skills />
         <Projects />
-        <Footer />
+        <Contact />
       </div>
-    </ThemeProvider>
-  );
+    </main>
+  )
 }
